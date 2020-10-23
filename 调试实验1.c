@@ -1,17 +1,17 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
-#include<math.h>
-int main()
-{
-	float R1=1, R2=1, U=1, I1, I2;
-	printf("enter Thee numbers R1,R2,U:",R1,R2,U );
-	scanf("%f,%f,%f",&R1,&R2,&U);
-	I1 = U / (R1 + R2);
-	I2 = U / ((R1 + R2) / (R1 * R2));
-	printf("I1=%f,I2=%f\n", I1, I2);
-	printf("2000200908陈水根\n");
-	return 0;
-}
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
+//#include<math.h>
+//int main()
+//{
+//	float R1=1, R2=1, U=1, I1, I2;
+//	printf("enter Thee numbers R1,R2,U:",R1,R2,U );
+//	scanf("%f,%f,%f",&R1,&R2,&U);
+//	I1 = U / (R1 + R2);
+//	I2 = U / ((R1 + R2) / (R1 * R2));
+//	printf("I1=%f,I2=%f\n", I1, I2);
+//	printf("2000200908陈水根\n");
+//	return 0;
+//}
 //main()
 //{
 //	int r;
